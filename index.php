@@ -90,7 +90,7 @@
             <div class="card">
               <div class="card-image">
                 <img class="materialboxed" width="650" src="./assets/images/adventures/kayaking.jpeg">
-                <a class="btn-floating pulse halfway-fab waves-effect waves-light btn modal-trigger blue" href="adventure.html"><i class="material-icons">remove_red_eye</i></a>
+                <a class="btn-floating pulse halfway-fab waves-effect waves-light btn modal-trigger blue" href="adventure.php"><i class="material-icons">remove_red_eye</i></a>
               </div>
               <div class="card-content">
                 <p><i class="material-icons light-blue-text">flash_on</i> Scuba Diving Adventure</p>
