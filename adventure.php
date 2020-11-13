@@ -140,8 +140,9 @@
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
+    <script src="js/calendar.js" type="module"></script>
     <script src="js/main.js"></script>
-    <script src="js/calendar.js"></script>
+
 </body>
 
 </html>
