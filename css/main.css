@@ -1,0 +1,17 @@
+.light-blue {
+    position: fixed;
+    z-index: 10;
+}
+
+.activator {
+    width: 100%;
+}
+
+.card {
+    overflow: hidden;
+    transition: all .25s linear;
+}
+
+.card:hover {
+    box-shadow: 10px 30px 50px -6px black;
+}
