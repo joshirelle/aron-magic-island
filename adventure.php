@@ -79,9 +79,9 @@
                     <li>
                         <div class="collapsible-header"><i class="material-icons">date_range</i>Select date and options</div>
                         <div class="collapsible-body">
-                            Check in: <input type="text" class="datepicker">
-                            Check out: <input type="text" class="datepicker">
-                            <!-- <div class="app-calendar"></div> -->
+                            <!-- Check in: <input type="text" class="datepicker">
+                            Check out: <input type="text" class="datepicker"> -->
+                            <div class="app-calendar"></div>
                         </div>
                     </li>
                 </ul>
@@ -141,6 +141,7 @@
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/calendar.js"></script>
 </body>
 
 </html>
