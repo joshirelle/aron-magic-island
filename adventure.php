@@ -17,7 +17,7 @@
 
 <body>
     <nav class="light-blue lighten-1" role="navigation">
-        <div class="nav-wrapper container"><a id="logo-container" href="index.php" class="brand-logo">Aron Magic Island</a>
+        <div class="nav-wrapper container"><a id="logo-container" href="index.php" class="brand-logo">AronMagicIsland</a>
 
             <ul class="right hide-on-med-and-down">
                 <li><a href="#adventures">Adventures</a></li>
