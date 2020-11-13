@@ -11,6 +11,8 @@
         $(".modal").modal();
         $(".collapsible").collapsible();
         $(".tap-target").tapTarget();
-        $(".datepicker").datepicker();
+        $(".datepicker").datepicker({
+            disableWeekends: true,
+        });
     });
 })(jQuery);
