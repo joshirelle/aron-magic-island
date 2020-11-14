@@ -16,5 +16,7 @@
         $(".datepicker").datepicker({
             minDate: dateToday,
         });
+
+        console.log(dateToday);
     });
 })(jQuery);
