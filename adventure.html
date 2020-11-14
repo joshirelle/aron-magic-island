@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
     <title>Aron Magic Island</title>
 
-    <meta name="distributor" content="Global" />
+    <!-- <meta name="distributor" content="Global" />
     <meta itemprop="contentRating" content="General" />
     <meta name="robots" content="All" />
     <meta name="revisit-after" content="7 days" />
@@ -14,17 +14,28 @@
     <meta name="keywords" content="slider, carousel, responsive, swipe, one to one movement, touch devices, jquery, plugin, bootstrap compatible, html5, css3" />
     <meta name="author" content="w3widgets.com" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="http://fonts.googleapis.com/css?family=Economica" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Economica" rel="stylesheet" type="text/css" /> -->
     <!-- Bootstrap -->
     <!-- <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" /> -->
     <!-- Respomsive slider -->
-    <link href="./css/responsive-calendar.css" rel="stylesheet" />
+    <!-- <link href="./css/responsive-calendar.css" rel="stylesheet" /> -->
 
     <!-- CSS  -->
+    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" href="/resources/demos/style.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $(function() {
+            $("#datepicker").datepicker();
+        });
+    </script> -->
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/main.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/nouislider.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <!-- <link href="css/calendar.css" type="text/css" rel="stylesheet" media="screen,projection" /> -->
 </head>
 
@@ -208,15 +219,33 @@
                                     <i class="material-icons">date_range</i>Select date and options
                                 </div>
                                 <div class="collapsible-body">
-                                    <!-- <div class="app-calendar"></div> -->
-                                    <div class="responsive-calendar">
-                                        <a class="pull-left" data-go="prev">
-                                            <div class="btn btn-primary">Prev</div>
+                                    <p class="check-date">
+                                        Check In:
+                                        <input type="text" id="check-in" />
+                                    </p>
+                                    <p class="check-date">
+                                        Check Out:
+                                        <input type="text" id="check-out" />
+                                    </p>
+                                    <p class="check-date">
+                                        Traveler: <span class="badge red white-text">PHP 1,500/Traveler</span>
+                                        <div id="test-slider"></div>
+                                    </p>
+                                    <br>
+                                    <hr>
+                                    <p class="check-date">
+                                        Order Total:
+                                        <label for="disabled" style="float: right;" id="total"></label>
+                                    </p>
+                                    <!-- <div class="app-calendar "></div> -->
+                                    <!-- <div class="responsive-calendar ">
+                                        <a class="pull-left " data-go="prev ">
+                                            <div class="btn btn-primary ">Prev</div>
                                         </a>
-                                        <a class="pull-right" data-go="next" style="float: right">
-                                            <div class="btn btn-primary">Next</div>
+                                        <a class="pull-right " data-go="next " style="float: right ">
+                                            <div class="btn btn-primary ">Next</div>
                                         </a>
-                                        <div class="controls">
+                                        <div class="controls ">
                                             <h4>
                                                 <span data-head-year></span>
                                                 <span data-head-month></span>
@@ -224,18 +253,18 @@
                                         </div>
 
                                         <hr />
-                                        <div class="day-headers">
-                                            <div class="day header">Mon</div>
-                                            <div class="day header">Tue</div>
-                                            <div class="day header">Wed</div>
-                                            <div class="day header">Thu</div>
-                                            <div class="day header">Fri</div>
-                                            <div class="day header">Sat</div>
-                                            <div class="day header">Sun</div>
+                                        <div class="day-headers ">
+                                            <div class="day header ">Mon</div>
+                                            <div class="day header ">Tue</div>
+                                            <div class="day header ">Wed</div>
+                                            <div class="day header ">Thu</div>
+                                            <div class="day header ">Fri</div>
+                                            <div class="day header ">Sat</div>
+                                            <div class="day header ">Sun</div>
                                         </div>
 
-                                        <div class="days" data-group="days"></div>
-                                    </div>
+                                        <div class="days " data-group="days "></div>
+                                    </div> -->
                                 </div>
                             </li>
                             </ul>
@@ -245,7 +274,7 @@
         </div>
 
         <!-- Tap Target Structure -->
-        <div class="tap-target" data-target="menu">
+        <div class="tap-target" data-target="menu ">
             <div class="tap-target-content">
                 <h5>Title</h5>
                 <p>A bunch of text</p>
@@ -263,20 +292,20 @@
                     <div class="col l3 s12">
                         <h5 class="white-text">Aron Magic Island</h5>
                         <ul>
-                            <li><a class="white-text" href="#!">About Us</a></li>
-                            <li><a class="white-text" href="#!">Terms & Conditions</a></li>
-                            <li><a class="white-text" href="#!">Privacy Policy</a></li>
-                            <li><a class="white-text" href="#!">FAQ</a></li>
+                            <li><a class="white-text" href="#! ">About Us</a></li>
+                            <li><a class="white-text" href="#! ">Terms & Conditions</a></li>
+                            <li><a class="white-text" href="#! ">Privacy Policy</a></li>
+                            <li><a class="white-text" href="#! ">FAQ</a></li>
                         </ul>
                     </div>
 
                     <div class="col l3 s12">
                         <h5 class="white-text">Connect</h5>
                         <ul>
-                            <li><a class="white-text" href="#!">Link 1</a></li>
-                            <li><a class="white-text" href="#!">Link 2</a></li>
-                            <li><a class="white-text" href="#!">Link 3</a></li>
-                            <li><a class="white-text" href="#!">Link 4</a></li>
+                            <li><a class="white-text" href="#! ">Link 1</a></li>
+                            <li><a class="white-text" href="#! ">Link 2</a></li>
+                            <li><a class="white-text" href="#! ">Link 3</a></li>
+                            <li><a class="white-text" href="#! ">Link 4</a></li>
                         </ul>
                     </div>
                 </div>
@@ -285,45 +314,76 @@
             <div class="footer-copyright">
                 <div class="container">
                     Copyright &copy; 2020
-                    <a class="orange-text text-lighten-3" href="https://www.facebook.com/aronmagicislandislove">AM Island</a
+                    <a class="orange-text text-lighten-3" href="https://www.facebook.com/aronmagicislandislove ">AM Island</a
           >. All Rights Reserved
         </div>
       </div>
     </footer>
 
     <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.js"></script>
-    <!-- <script src="js/calendar.js" type="module"></script> -->
-    <script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js "></script>
+    <script src="js/materialize.js "></script>
+    <script src="js/nouislider.js "></script>
+    <!-- <script src="js/calendar.js " type="module "></script> -->
+
+    <script type="text/javascript ">
       (function ($) {
         $(function () {
           var dateToday = new Date();
-          var x = "";
+          var x = " ";
 
-          $(".fixed-action-btn").floatingActionButton();
-          $(".sidenav").sidenav();
-          $(".materialboxed").materialbox();
-          $(".carousel.carousel-slider").carousel({
+          $(".fixed-action-btn ").floatingActionButton();
+          $(".sidenav ").sidenav();
+          $(".materialboxed ").materialbox();
+          $(".carousel.carousel-slider ").carousel({
             fullWidth: true,
             indicators: true,
           });
 
-          $(".modal").modal();
-          $(".collapsible").collapsible();
-          $(".tap-target").tapTarget();
-        });
-      })(jQuery);
+          $(".modal ").modal();
+          $(".collapsible ").collapsible();
+          $(".tap-target ").tapTarget();
+          $("#check-in").datepicker({
+            minDate: dateToday,
+          });
+          $("#check-out").datepicker({
+            minDate: dateToday,
+          });
+
+          var slider = document.getElementById('test-slider');
+          noUiSlider.create(slider, {
+          start: [0, 80],
+          connect: true,
+          step: 1,
+          orientation: 'horizontal', // 'horizontal' or 'vertical'
+          range: {
+            'min': 0,
+            'max': 100
+          },
+            format: wNumb({
+              decimals: 0
+            })
+          });
+
+          var slider = document.getElementById('test-slider');
+          var total  = document.getElementById('total');
+
+                });
+              })(jQuery);
     </script>
-    <script src="./js/jquery.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/responsive-calendar.js"></script>
-    <script type="text/javascript">
+
+    <!-- <script src="./js/jquery.js "></script>
+    <script src="./js/bootstrap.min.js "></script>
+    <script src="./js/responsive-calendar.js "></script>
+    <script type="text/javascript ">
       $(document).ready(function () {
-        $(".responsive-calendar").responsiveCalendar({
-          time: "2020-11",
+        $(".responsive-calendar ").responsiveCalendar({
+          time: "2020-11 ",
+          onSelect: (dataText, inst) => {
+            console.log(dataText);
+          },
         });
       });
-    </script>
+    </script> -->
   </body>
 </html>
