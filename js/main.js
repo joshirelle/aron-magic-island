@@ -11,12 +11,5 @@
         $(".modal").modal();
         $(".collapsible").collapsible();
         $(".tap-target").tapTarget();
-
-        var dateToday = new Date();
-        $(".datepicker").datepicker({
-            minDate: dateToday,
-        });
-
-        console.log(dateToday);
     });
 })(jQuery);
