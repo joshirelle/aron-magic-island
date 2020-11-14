@@ -11,8 +11,10 @@
         $(".modal").modal();
         $(".collapsible").collapsible();
         $(".tap-target").tapTarget();
+
+        var dateToday = new Date();
         $(".datepicker").datepicker({
-            disableWeekends: true,
+            minDate: dateToday,
         });
     });
 })(jQuery);
